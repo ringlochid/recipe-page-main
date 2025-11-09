@@ -1,0 +1,118 @@
+    @font-face {
+        font-family: "Outfit";
+        src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+        font-display: swap;
+    }
+    @font-face{
+      font-family:"Young Serif";
+      src:url("./assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+      font-display:swap;
+    }
+    body{
+        font-family: Outfit;
+        display: grid;
+        margin: 0;
+        min-height: 100vh;
+        place-items: center;
+        background-color: antiquewhite;
+    }
+    .recipecard{
+      display: grid;
+      gap: 8px;
+      background: #fff;
+      border-radius: 20px;
+      border: 2px solid rgba(71, 70, 69, 0.183);
+      width: min(90vw, 500px);
+      padding: 24px;
+    }
+    .recipecard h1{
+      margin:0px, auto;
+    }
+    .omleteeimg{
+      width: 100%;
+      height: auto;
+      margin: 0;
+      display: block; 
+      border-radius: 20px;
+    }
+    .prep{
+        padding: 15px;
+      background: hsl(327, 47%, 96%);
+      border-radius: 10px;
+      box-shadow: 4px 2px rgba(188, 143, 143, 0.427);
+    }
+    .prep h3{
+      color: rgb(132, 25, 72);
+      margin: 8px 5px;
+      padding: 10px 20px;
+      padding-bottom: 0;
+    }
+    .prep ul{
+      display: grid;
+      gap: 12px;
+      margin: 6px 0;
+      padding-left: 2.2rem;
+    }
+    .prep li{
+      padding-left: 1.25rem;
+    }
+    .prep li::marker {
+      color: hsl(0, 100%, 23%);
+      font-size: 0.6em;
+    }
+    .indeg{}
+    .indeg h2{
+      color: rgb(150, 99, 3);
+    }
+    .indeg ul{
+      display: grid;
+      gap: 12px;
+      margin: 0;
+      padding-left: 1rem;
+    }
+    .indeg li{
+      padding-left: 1rem;
+    }
+    .indeg li::marker{
+      color: rgb(150, 99, 3);
+      font-size: 0.8em;
+    }
+    .instru{}
+    .instru h2{
+      color: rgb(150, 99, 3);
+    }
+    .instru ol{
+      display: grid;
+      gap: 12px;
+      margin: 0;
+      padding-left: 1rem;
+    }
+    .instru li{
+      padding-left: 1rem;
+    }
+    .instru li::marker{
+      color: hsl(0, 100%, 23%);
+    }
+    .nutri{
+      display: grid;
+      gap: 12px;
+
+    }
+    .nutri h2{
+      color: rgb(150, 99, 3);
+    }
+    .nutri p{
+      margin: 0;
+      margin-bottom: 10px;
+    }
+    .nutri table{
+      width: 100%;
+      margin: 0 auto;
+      border-collapse: collapse;
+    }
+    .nutri td{
+      border-bottom: 1px solid rgb(0, 0, 0);
+      margin: 0;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }

@@ -5,108 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Recipe page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    body{
-      display: grid;
-      margin: 0;
-      min-height: 100vh;
-      place-items: center;
-      background-color: antiquewhite;
-    }
-    .recipecard{
-      display: grid;
-      gap: 8px;
-      background: #fff;
-      border-radius: 20px;
-      border: 2px solid rgba(71, 70, 69, 0.183);
-      width: min(90vw, 680px);
-      padding: 24px;
-    }
-    .recipecard h1{
-      margin:0px, auto;
-    }
-    .omleteeimg{
-      width: 100%;
-      height: auto;
-      margin: 0;
-      display: block; 
-      border-radius: 20px;
-    }
-    .prep{
-      background: hsl(327, 47%, 96%);
-      border-radius: 10px;
-      box-shadow: 4px 2px rgba(188, 143, 143, 0.427);
-    }
-    .prep :hover{
-      filter: brightness(0.90);
-    }
-    .prep h3{
-      color: rgb(132, 25, 72);
-      margin: 5px;
-      padding: 10px 20px;
-      padding-bottom: 0;
-    }
-    .prep ul{
-      display: grid;
-      gap: 12px;
-      margin: 0;
-      padding-left: 2.2rem;
-    }
-    .prep li{
-      padding-left: 1.25rem;
-    }
-    .prep li::marker {
-      color: hsl(0, 100%, 23%);
-      font-size: 0.6em;
-    }
-    .indeg{}
-    .indeg h2{
-      color: rgb(150, 99, 3);
-    }
-    .indeg ul{
-      display: grid;
-      gap: 12px;
-      margin: 0;
-      padding-left: 1rem;
-    }
-    .indeg li{
-      padding-left: 1rem;
-    }
-    .indeg li::marker{
-      color: rgb(150, 99, 3);
-      font-size: 0.8em;
-    }
-    .instru{}
-    .instru h2{
-      color: rgb(150, 99, 3);
-    }
-    .instru ol{
-      display: grid;
-      gap: 12px;
-      margin: 0;
-      padding-left: 1rem;
-    }
-    .instru li{
-      padding-left: 1rem;
-    }
-    .instru li::marker{
-      color: hsl(0, 100%, 23%);
-    }
-    .nutri{
-      display: grid;
-      
-
-    }
-    .butri h2{
-      color: rgb(150, 99, 3);
-    }
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <div class="recipecard">
@@ -172,23 +75,23 @@
 
         <table>
         <tr>
-          <td>Calories</td>
-          <td>277kcal</td>
+          <td style="padding-left: 2rem;">Calories</td>
+          <td style="color: rgb(150, 99, 3);">277kcal</td>
         </tr>
 
         <tr>
-          <td>Carbs</td>
-          <td>0g</td>
+          <td style="padding-left: 2rem;">Carbs</td>
+          <td style="color: rgb(150, 99, 3);">0g</td>
         </tr>
 
         <tr>
-          <td>Protein</td>
-          <td>20g</td>
+          <td style="padding-left: 2rem;">Protein</td>
+          <td style="color: rgb(150, 99, 3);">20g</td>
         </tr>
 
         <tr>
-          <td>Fat</td>
-          <td>22g</td>
+          <td style="padding-left: 2rem;">Fat</td>
+          <td style="color: rgb(150, 99, 3);">22g</td>
         </tr>
         </table>
       </section>
